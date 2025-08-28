@@ -6,11 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IntroductionToDOTNET
+namespace IntroductionToDOTNET // пространство имен
 {
-    internal class Program
+    internal class Program//неявный класс
     {
-        static void Main(string[] args)
+        static void Main(string[] args)//вызывается для класса//принимаются параметры консольной строки
         {
 #if STRING_OPERATION
             //Console.WriteLine("\t\tHello .NET\n");
@@ -19,9 +19,8 @@ namespace IntroductionToDOTNET
             string first_name = Console.ReadLine();
             Console.Write("Введите вашу фамилию");
             string last_name = Console.ReadLine();
-
             Console.Write("Введите ваш возраст");
-            int age = Convert.ToInt32(Console.ReadLine());//Load int - 32 бита
+            int age = Convert.ToInt32(Console.ReadLine());//Load int - 32 бита//преобразования типов
 
             Console.WriteLine(first_name + " " + last_name + " " + age + " ");//конкатенация строк
             Console.WriteLine(String.Format("{0} {1} {2}", first_name, last_name, age));//форматирование строк
