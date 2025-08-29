@@ -28,19 +28,60 @@ namespace IntroductionToDOTNET // пространство имен
 #endif
 
 #if DATA_TYPES
-            Console.WriteLine(sizeof(bool));//вывод размера типа в консоль
+            //Console.WriteLine(sizeof(bool));//вывод размера типа в консоль
             //Console.WriteLine(Boolean.);//класс обвертка
             //варианты объявления
-            bool var1;// спецификатор типа
-            Boolean var2;//класс- обвертка
-            Console.WriteLine(sizeof(char));
+            //bool var1;// спецификатор типа
+            //Boolean var2;//класс- обвертка
+            //Console.WriteLine(sizeof(char));
 
 
             short var = 0;
             Console.WriteLine($"{var.GetType()} занимает {sizeof(short)} Байт и диапозон:{short.MinValue}.....{short.MaxValue}");
 
+            byte var_1 = 0;
+            Console.WriteLine($"{var_1.GetType()} занимает {sizeof(byte)} Байт и диапозон:{byte.MinValue}.....{byte.MaxValue}");
            
+            int var_2 = 0;
+            Console.WriteLine($"{var_2.GetType()} занимает {sizeof(int)} Байт и диапозон:{int.MinValue}......{int.MaxValue}");
+
+            long var_3 = 0;
+            Console.WriteLine($"{var_3.GetType()} занимает {sizeof(long)} Байт и диапозон:{long.MinValue}.....{long.MaxValue}");
+
+            float var_4 = 0;
+            Console.WriteLine($"{var_4.GetType()} занимает {sizeof(float)} Байт и диапозон:{float.MinValue}.....{float.MaxValue}");
+
+            double var_5 = 0;
+            Console.WriteLine($"{var_5.GetType()} занимает {sizeof(double)} Байт и диапозон:{double.MinValue}....{double.MaxValue}");
             
+            decimal var_6 = 0;
+            Console.WriteLine($"{var_6.GetType()} занимает {sizeof(decimal)} Байт и занимает:{decimal.MinValue}...{decimal.MaxValue}");
+
+
+            Console.WriteLine(sizeof(byte));//вывод размера типа в консоль
+            Byte var_77;                    //класс- обвертка
+
+            Console.WriteLine(sizeof(short));
+            Int16 var_88;
+
+            Console.WriteLine(sizeof(int));
+            Int32 var_99;
+
+            Console.WriteLine(sizeof(long));
+            Int64 var_100;
+            
+            Console.WriteLine(sizeof(float));
+            Single var_200;
+
+            Console.WriteLine(sizeof(double));
+            Double var_300;
+
+            Console.WriteLine(sizeof(decimal));
+            Decimal var_400;
+
+            Console.WriteLine($"Decimal занимает {sizeof(decimal)} байт");
+
+
 #endif
 
 
