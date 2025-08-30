@@ -1,6 +1,7 @@
 ﻿//#define STRING_OPERATION
 //#define DATA_TYPES
-#define FACTORIAL 
+//#define FACTORIAL
+//#define CALC
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -88,7 +89,7 @@ namespace IntroductionToDOTNET // пространство имен
 
 #if FACTORIAL
 
-            /*long Factorial(int n)//метод для объекта n
+            long Factorial(int n)//метод для объекта n
             {
                 if (n == 1) return 1; //РАВНО ЛИ ЧИСЛО ЕДИНИЦЕ
 
@@ -104,13 +105,21 @@ namespace IntroductionToDOTNET // пространство имен
            Console.WriteLine($"Факториал числа 2 = {factorial2}");
            Console.WriteLine($"Факториал числа 5 = {factorial5}");
            Console.WriteLine($"Факториал числа 10 = {factorial10}");
-           Console.WriteLine($"Факториал числа 42 = {factorial42}");*/
+           Console.WriteLine($"Факториал числа 42 = {factorial42}");
 
 
             Console.WriteLine($"factorial 5 = {5 * 4 * 3 * 2 * 1}"); //)))))))))))))))))
 
 
 #endif
+
+#if CALC
+
+
+
+
+#endif
+
 
         }
     }
