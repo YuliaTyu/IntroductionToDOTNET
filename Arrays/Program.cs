@@ -1,4 +1,4 @@
-﻿//#define ARRAYS_1
+﻿#define ARRAYS_1
 //#define ARRAYS_2
 //#define JAGGED_ARRAYS
 using Microsoft.Win32.SafeHandles;
